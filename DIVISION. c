@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int a,b;
+a=3;
+b=15;
+printf("the result of this division operation is %d",b/a);
+return 0;
+}
