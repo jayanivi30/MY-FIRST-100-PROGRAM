@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main()
+{
+int a,b,largest;
+printf("Enter 1st number:\n");
+printf("Enter 2nd number:\n");
+scanf("%d",&a);
+scanf("%d",&b);
+largest=(a>b)?a:b;
+printf("largest is %d",largest);
+return 0;
+}
