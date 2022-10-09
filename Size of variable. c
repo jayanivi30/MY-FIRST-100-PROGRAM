@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main ()
+{
+int intdt;
+float floatdt;
+double doubledt;
+char chardt;
+printf("size of int is %zu bytes\n ",sizeof(intdt));
+printf("Size of float: %zu bytes\n", sizeof(floatdt));
+printf("Size of double: %zu bytes\n", sizeof(doubledt));
+printf("Size of char: %zu byte\n", sizeof(chardt));
+    
+    return 0;
+}
