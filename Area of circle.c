@@ -3,9 +3,9 @@ int main()
 {
    int rad;
    float PI = 3.14, area;
-   printf("\nEnter radius of circle: ");
+   printf("Enter radius of circle: \n");
    scanf("%d", &rad);
    area = PI * rad * rad;
-   printf("\nArea of circle : %f ", area);
+   printf("Area of circle : %f \n", area);
    return 0;
 }
