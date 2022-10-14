@@ -16,6 +16,5 @@ int main()
     rev[i] = str[j];
     j--;
   }
-
   printf("\nString After Reverse: %s", rev);
 }
